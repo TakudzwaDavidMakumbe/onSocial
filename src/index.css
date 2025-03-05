@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+
+@font-face {
+    font-family: bold;
+    src: url(../public/Causten-Black.ttf);
+}
+.bold {
+    font-family: bold;
+}
+
+@font-face {
+    font-family: regular;
+    src: url(../public/Causten-Regular.ttf);
+}
+.regular {
+    font-family: regular;
+}
