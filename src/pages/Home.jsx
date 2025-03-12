@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import bg from "../../public/bg.png";
-import icon from "../../public/icon.png";
+import icon from "../../public/Icon.png";
 import icon1 from "../../public/Icon(1).png";
 import icon2 from "../../public/Icon2.png";
 import icon3 from "../../public/Icon3.png";
