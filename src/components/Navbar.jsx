@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from '../../public/Traced Image.png';
+import logo from '../../public/On Social Logo-5.png'; 
 import { Link } from 'react-router-dom';
 import { BiMenu, BiX } from 'react-icons/bi';
 
@@ -7,19 +7,20 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className='relative flex justify-between border bold border-gray-300 items-center bg-white m-5 text-black rounded-lg font-mono px-6 md:px-12 '>
+    <div className="w-full md:px-10 h-full">
+      <nav className='relative  flex justify-between border  rounded-full bold border-gray-300 items-center bg-white   top-8 z-[100] text-black  px-6 md:px-12 '>
       {/* Logo */}
-      <div className='flex items-center  w-[230px]'>
-        <img src={logo} alt='logo' className='md:w-30  md:h-16' />
+      <div className='flex items-center py-2  w-[230px]'>
+        <img src={logo} alt='logo' className='md:w-30  md:h-10' />
       </div>
 
       {/* Desktop Menu */}
       <div className="">
-      <div className='hidden md:flex items-center space-x-10 w-3/5'>
-        <Link to='/' className='text-lg font-semibold'>Home</Link>
-        <Link to='/about' className='text-lg font-semibold'>About</Link>
-        <Link to='/services' className='text-lg font-semibold'>Services</Link>
-        <Link to='/contact' className='text-lg font-semibold'> Contact</Link>
+      <div className='hidden md:flex  items-center space-x-10 w-3/5'>
+        <Link to='/' className=' text-lg hover:text-[#D41406]   '>Home</Link>
+        <Link to='/about' className=' text-lg hover:text-[#D41406]   '>About</Link>
+        <Link to='/services' className=' text-lg hover:text-[#D41406]   '>Gallary</Link>
+        <Link to='/contact' className='text-lg hover:text-[#D41406]   '> Contact</Link>
       
         
       </div>
@@ -36,15 +37,16 @@ const Navbar = () => {
       {isOpen && (
             <div className='absolute top-16 left-0 mt-8  px-5  w-full  flex flex-col items-center py-4 md:hidden '>
                 <div className='  w-full bg-white  flex flex-col z-[] items-center py-4 md:hidden '>
-                <Link to='/' className='text-lg font-semibold'>Home</Link>
-                <Link to='/about' className='text-lg font-semibold'>About</Link>
-                <Link to='/services' className='text-lg font-semibold'>Services</Link>
-                <Link to='/contact' className='text-lg font-semibold'> Contact</Link>
+                <Link to='/' className='text-lg hover:text-[#fa9508]  '>Home</Link>
+                <Link to='/about' className='text-lg hover:text-[#fa9508]  '>About</Link>
+                <Link to='/services' className='text-lg hover:text-[#fa9508]  '>Services</Link>
+                <Link to='/contact' className='text-lg hover:text-[#fa9508]  '> Contact</Link>
                 </div>
                 
             </div>
       )}
     </nav>
+    </div>
   );
 };
 
