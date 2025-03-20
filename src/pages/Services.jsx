@@ -40,6 +40,79 @@ const Services = () => {
         </div>
       </div>
 
+      <div className="">
+      <div className="md:mt-10 md:px-30">
+            <h1 className="text-black/93 pl-10 md:pl-0  bold md:text-5xl">Media</h1>
+          </div>
+          <div className="w-full md:flex md:mt-10 md:px-30 h-full">
+            <div className="w-full h-full px-10 md:px-0 py-3 mb-3 md:mb-0  md:py-0 cursor-pointer transition-all duration-150 ">
+          <div className="w-full h-full">
+            <div className="aspect-video">
+          <iframe
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/_S5ATejGoR4?autoplay=1&mute=1&loop=1&playlist=_S5ATejGoR4"
+            title="YouTube video"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+            </div>
+            <div className="">
+          <p className="text-black/93 bold text-lg">
+            ByWord
+          </p>
+          <p className="text-black/55 regular text-sm">Woman's month Car service</p>
+            </div>
+          </div>
+            </div>
+
+            <div className="w-full h-full px-10 md:px-0 py-3 mb-3 md:mb-0  md:py-0 cursor-pointer transition-all duration-150 ">
+          <div className="w-full h-full">
+            <div className="aspect-video">
+          <iframe
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/EuV1i1SPzuI?autoplay=1&mute=1&loop=1&playlist=EuV1i1SPzuI"
+            title="YouTube video"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+            </div>
+            <div className="">
+          <p className="text-black/93 bold text-lg">
+          ByWord
+          </p>
+          <p className="text-black/55 regular text-sm">luxury car showroom</p>
+            </div>
+          </div>
+            </div>
+
+            <div className="w-full h-full px-10 md:px-0 py-3 mb-3 md:mb-0  md:py-0 cursor-pointer transition-all duration-150 ">
+          <div className="w-full h-full">
+            <div className="aspect-video">
+          <iframe
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/LiugKY0Ddq4?autoplay=1&mute=1&loop=1&playlist=LiugKY0Ddq4"
+            title="YouTube video"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+            </div>
+            <div className="">
+          <p className="text-black/93 bold text-lg">
+          ByWord
+          </p>
+          <p className="text-black/55 regular text-sm">Car Service AD</p>
+            </div>
+          </div>
+            </div>
+          </div>
+      </div>
+
       <div className="w-full h-full flex-col md:mt-10 bg-[#07070F] ">
               <div className="md:flex justify-around pl-10  items-center w-full md:p-10 md:pl-30 h-full">
                 <div className="w-full pt-3 md:pt-0 h-full">

@@ -192,58 +192,84 @@ const Home = () => {
           </div>
         </div>
       </div>
-      {/* ---End of Services section--- */}
+     { /* ---End of Services section--- */}
 
-      {/* ---About section--- */}
+       {/* ---About section--- */}
 
-      <div className="md:mt-10 md:px-30">
-        <h1 className="text-black/93 pl-10 md:pl-0  bold md:text-5xl">Media</h1>
-      </div>
-      <div className="w-full md:flex md:mt-10 md:px-30 h-full">
-        <div className="w-full h-full px-10 md:px-0 py-3 mb-3 md:mb-0  md:py-0 cursor-pointer transition-all duration-150 ">
+          <div className="md:mt-10 md:px-30">
+            <h1 className="text-black/93 pl-10 md:pl-0  bold md:text-5xl">Media</h1>
+          </div>
+          <div className="w-full md:flex md:mt-10 md:px-30 h-full">
+            <div className="w-full h-full px-10 md:px-0 py-3 mb-3 md:mb-0  md:py-0 cursor-pointer transition-all duration-150 ">
           <div className="w-full h-full">
-            <div className="">
-              <img src={icon4} alt="" className="" />
+            <div className="aspect-video">
+          <iframe
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/_S5ATejGoR4?autoplay=1&mute=1&loop=1&playlist=_S5ATejGoR4"
+            title="YouTube video"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
             </div>
             <div className="">
-              <p className="text-black/93 bold text-lg">
-                Augue Gravida Curabitur
-              </p>
-              <p className="text-black/55 regular text-sm">COMMERCIAL</p>
-            </div>
-          </div>
-        </div>
-
-        <div className="w-full h-full">
-          <div className="w-full h-full px-10 md:px-0 py-3 mb-3 md:mb-0  md:py-0 cursor-pointer transition-all duration-150">
-            <div className="">
-              <img src={icon6} alt="" className="" />
-            </div>
-            <div className="">
-              <p className="text-black/93 bold text-lg">Nullam Faucibus</p>
-              <p className="text-black/55 regular text-sm">VFC</p>
+          <p className="text-black/93 bold text-lg">
+            ByWord
+          </p>
+          <p className="text-black/55 regular text-sm">Woman's month Car service</p>
             </div>
           </div>
-        </div>
+            </div>
 
-        <div className="w-full cursor-pointer h-full">
-          <div className="w-full h-full px-10 md:px-0 py-3 mb-3 md:mb-0  md:py-0 cursor-pointer transition-all duration-150">
-            <div className="">
-              <img src={icon7} alt="" className="" />
+            <div className="w-full h-full px-10 md:px-0 py-3 mb-3 md:mb-0  md:py-0 cursor-pointer transition-all duration-150 ">
+          <div className="w-full h-full">
+            <div className="aspect-video">
+          <iframe
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/EuV1i1SPzuI?autoplay=1&mute=1&loop=1&playlist=EuV1i1SPzuI"
+            title="YouTube video"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
             </div>
             <div className="">
-              <p className="text-black/93 bold text-lg">
-                Nunc Vestibulum Curabitur
-              </p>
-              <p className="text-black/55  regular text-sm">VIDEO PRODUCTION</p>
+          <p className="text-black/93 bold text-lg">
+          ByWord
+          </p>
+          <p className="text-black/55 regular text-sm">luxury car showroom</p>
             </div>
           </div>
-        </div>
-      </div>
+            </div>
 
-      {/* ---End of About section--- */}
+            <div className="w-full h-full px-10 md:px-0 py-3 mb-3 md:mb-0  md:py-0 cursor-pointer transition-all duration-150 ">
+          <div className="w-full h-full">
+            <div className="aspect-video">
+          <iframe
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/LiugKY0Ddq4?autoplay=1&mute=1&loop=1&playlist=LiugKY0Ddq4"
+            title="YouTube video"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+            </div>
+            <div className="">
+          <p className="text-black/93 bold text-lg">
+          ByWord
+          </p>
+          <p className="text-black/55 regular text-sm">Car Service AD</p>
+            </div>
+          </div>
+            </div>
+          </div>
+
+          {/* ---End of About section--- */}
       {/* ---Contact section--- */}
-      <div className="w-full md:flex md:mt-10 md:px-30 h-full">
+      {/* <div className="w-full md:flex md:mt-10 md:px-30 h-full">
         <div className="w-full h-full px-10 md:px-0 py-3 mb-3 md:mb-0  md:py-0 cursor-pointer transition-all duration-150">
           <div className="w-full h-full">
             <div className="">
@@ -281,17 +307,17 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* ---End of Contact section--- */}
 
       {/* --- section start --- */}
       <div className="w-full md:mt-10 px-10 py-3 mb-3 md:mb-0  md:flex md:px-30 ">
         <div className="bg-[#07070F]   rounded-lg md:flex w-full ">
           <div className="md:w-[30%]   md:pt-7 md:px-10 md:py-5">
-            <div className="md:px-10 pt-4 md:pt-0 px-33">
-              <img src={img} alt="" className="md:w-[50%]" />
+            <div className="md:px-10 pt-4 md:pt-0 px-30 ">
+              <img src={img} alt="" className="md:w-[50%] w-[100%]" />
             </div>
-            <div className="px-30 md:px-0">
+            <div className="px-28 md:px-0">
               <p className="text-white/93 md:px-5 bold text-4xl">789</p>
               <p className="regular md:text-lg  text-white/55">Happy Clients</p>
             </div>
@@ -318,7 +344,7 @@ const Home = () => {
           </div>
 
           <div className="md:w-[30%] mt-3 md:mt-0  md:px-10 md:py-5">
-            <div className="md:px-10  px-34">
+            <div className="md:px-10  px-32">
               <img src={img2} alt="" className="md:w-[40%]" />
             </div>
             <div className="md:px-10 pb-4 md:pb-0  px-28 ">
